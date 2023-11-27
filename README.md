@@ -1,32 +1,32 @@
 # Slither-Enhancement-project-team-9-CSE6324-001
-Slither Enhancement project team 9 CSE6324-001
 
+This is final github repository containing all the files and code from 1st to the final iteration.
 
 
 **Step-by-step process for installing Python and Slither on Ubuntu:**
 
-2.  Update the package manager:
+1.  Update the package manager:
 
 ```
 sudo apt update
 
 ```
 
-3.  Install Python 3:
+2.  Install Python 3:
 
 ```
 sudo apt install python3
 
 ```
 
-4.  Install Pip, the Python package manager:
+3.  Install Pip, the Python package manager:
 
 ```
 sudo apt-get -y install python3-pip
 
 ```
 
-5.  Install Slither:
+4.  Install Slither:
 
 ```
 pip3 install slither-analyzer
