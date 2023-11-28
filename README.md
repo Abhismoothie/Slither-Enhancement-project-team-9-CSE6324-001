@@ -2,6 +2,9 @@
 
 This is final github repository containing all the files and code from 1st to the final iteration.
 
+Project Introduction:
+
+The Proposal is to enhance the Slither Framework Analysis by adding a functionality to handle nested structs. It provides fine-grained information about smart contract codes and has the necessary flexibility to support many applications. Enabling support for nested structs in Slither would expand its capabilities, allowing users to analyze a wider array of Solidity smart contracts for potential security vulnerabilities. This enhancement would also bolster Slither's effectiveness by increasing its thoroughness and precision in evaluating Solidity code.
 
 **Step-by-step process for installing Python and Slither on Ubuntu:**
 
