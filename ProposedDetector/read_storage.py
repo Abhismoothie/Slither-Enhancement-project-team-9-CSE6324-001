@@ -645,6 +645,19 @@ class SlitherReadStorage:
 def _find_struct_var_slot(
     elems: List[StructureVariable], slot_as_bytes: bytes, struct_var: str
 ) -> Tuple[str, str, bytes, int, int]:
+    """
+    Finds the slot of a structure variable.
+    Args:
+        elems (List[StructureVariable]): Ordered list of structure variables.
+        slot_as_bytes (bytes): The slot of the struct to begin searching at.
+        struct_var (str): The target structure variable.
+    Returns:
+        info (str): Info about the target variable to log.
+        type_to (str): The type of the target variable.
+        slot (bytes): The storage location of the target variable.
+        size (int): The size (in bits) of the target variable.
+        offset (int): The size of other variables that share the same slot.
+    """
     slot = int.from_bytes(slot_as_bytes, "big")
     offset = 0
     type_to = ""
