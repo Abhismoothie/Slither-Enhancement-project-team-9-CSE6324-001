@@ -62,7 +62,7 @@ npx hardhat init
 4.  Install the @nomicfoundation/hardhat-toolbox package:
 
 ```
-npm install-save dev @nomicfoundation/hardhat-toolbox 100
+npm install-save dev @nomicfoundation/hardhat-toolbox
 
 ```
 
